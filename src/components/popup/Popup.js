@@ -30,7 +30,10 @@ export function Popup({ settings: { visible, content = {} }, setSettings }) {
   return (
     <PopupContainer visible={visible}>
       <StyledPopup>
-        <CloseIcon onClick={togglePopup} />
+        <CloseIcon
+          // eslint-disable-next-line react/jsx-no-bind
+          onClick={togglePopup}
+        />
 
         <PopupHeader
           name={name}

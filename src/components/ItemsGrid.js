@@ -26,9 +26,10 @@ export function ItemsGrid() {
 
   return (
     <Container>
-      {characters.map((props, index) => (
+      {characters.map((props) => (
         <Card
-          key={index}
+          key={props.id}
+          // eslint-disable-next-line react/jsx-no-bind
           onClickHandler={() => cardOnClickHandler(props)}
           {...props}
         />
