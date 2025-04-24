@@ -2,7 +2,7 @@
   "name": "elfsight-test-task",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://zebpaa.github.io/rickAndMorty",
+  "homepage": "https://zebpaa.github.io/rickAndMorty/",
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-app-rewired start",
