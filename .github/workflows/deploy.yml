@@ -11,8 +11,8 @@ jobs:
         with:
           node-version: 20
       - run: npm install
-      # - run: npm predeploy
-      - run: npm deploy
+      - run: npm run predeploy
+      - run: npm run deploy
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
