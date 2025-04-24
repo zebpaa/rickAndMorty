@@ -2,11 +2,11 @@
   "name": "elfsight-test-task",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://zebpaa.github.io/rickAndMorty",
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "deploy": "gh-pages -d build",
     "lint": "eslint --fix --ext .js,.jsx . && npx prettier --write \"src/**/*.js\""
   },
   "dependencies": {
